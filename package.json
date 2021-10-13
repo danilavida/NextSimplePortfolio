@@ -1,0 +1,26 @@
+{
+  "name": "next-simple-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilavida/NextSimplePortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilavida/NextSimplePortfolio/issues"
+  },
+  "homepage": "https://github.com/danilavida/NextSimplePortfolio#readme",
+  "dependencies": {
+    "bootswatch": "^5.1.2",
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
