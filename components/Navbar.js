@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "next/dist/client/link";
 
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
