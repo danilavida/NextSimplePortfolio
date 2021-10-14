@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Link from "next/dist/client/link";
-import { skills } from "../profile";
+import { skills, experiences } from "../profile";
 
 const Index = () => (
   <Layout>
@@ -63,6 +63,17 @@ const Index = () => (
         <div className="card bg-ligth">
           <div className="card-body">
             <h1>Experience</h1>
+            <ul>
+              {experiences.map(({ title, description, from, to }, index) => (
+                <li key={index}>
+                  <h3>{title}</h3>
+                  <h5>
+                    {from} - {to}
+                  </h5>
+                  <p>{description}</p>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

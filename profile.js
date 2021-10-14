@@ -28,3 +28,34 @@ export const skills = [
     percentage: 50,
   },
 ];
+
+export const experiences = [
+  {
+    title: "Software DEveloper at Microsoft",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, tempora!",
+    from: 2000,
+    to: 2005,
+  },
+  {
+    title: "Software DEveloper at Microsoft",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, tempora!",
+    from: 2000,
+    to: 2005,
+  },
+  {
+    title: "Software DEveloper at Microsoft",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, tempora!",
+    from: 2000,
+    to: 2005,
+  },
+  {
+    title: "Software DEveloper at Microsoft",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, tempora!",
+    from: 2000,
+    to: 2005,
+  },
+];
