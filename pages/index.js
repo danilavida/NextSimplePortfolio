@@ -22,10 +22,12 @@ const Index = () => (
                 nisi ducimus mollitia quae.
               </p>
               <Link href="/hireme">
-                <a className="btn btn-outline-info btn-lg mx-4">Hire me!</a>
+                <a className="btn btn-outline-secondary btn-lg mx-4">
+                  Hire me!
+                </a>
               </Link>
               <Link href="/paycoffe">
-                <a className="btn btn-outline-info btn-lg mx-4">
+                <a className="btn btn-outline-secondary btn-lg mx-4">
                   Pay me a coffe!
                 </a>
               </Link>
@@ -74,6 +76,29 @@ const Index = () => (
                 </li>
               ))}
             </ul>
+            <Link href="/experiences">
+              <a type="button" className="btn btn-outline-dark">
+                Know More
+              </a>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/* Portfolio  */}
+
+    <div className="row">
+      <div className="col-md-12">
+        <div className="card card-body bg-dark">
+          <div className="row">
+            <div className="col-md-12">
+              <h1 className="text-center text-light">Porfolio</h1>
+            </div>
+            <div className="col-md-4">
+              <div className="car">
+                <img src="" alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
